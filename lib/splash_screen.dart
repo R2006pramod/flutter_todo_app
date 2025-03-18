@@ -12,7 +12,11 @@ class SplashScreen extends StatelessWidget {
         width: screenWidth,
         height: screenHeight,
         child: Center(
+          child:SizedBox(
+            width: 150,
+          height: 150,
           child: Image.asset('assets/logo/myTask.png'),
+          ),
         ),
       ),
     );
